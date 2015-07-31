@@ -35,10 +35,19 @@
 
 				</div>
 
+
 			</nav>
+      <canvas id="gameScreen" style="background-color: blue"></canvas>
+
 		</div>
 	</div>
 </div>
+
+    <script>
+      var userHeight = Math.round(0.8 * screen.height)
+      document.getElementById("gameScreen").width = screen.width + "px";
+      document.getElementById("gameScreen").width = userHeight + "px";
+    </script>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
